@@ -25,7 +25,11 @@ function addElementToEndOfArray(testArray,element)
   return newtestArray
 }
 
-function 
+function destructivelyAddElementToEndOfArray(testArray,element)
+{
+  testArray.push(element)
+  return testArray
+}
 
 function destructivelyRemoveElementFromBeginningOfArray(testArray){
   testArray.shift()
