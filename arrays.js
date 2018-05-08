@@ -12,11 +12,13 @@ function destructivelyAddElementToBeginningOfArray(testArray ,element)
   return newtestArray
 }
 
-addElementToBeginningOfArray(chocolateBars, "choco powder");
-
-destructivelyAddElementToBeginningOfArray(chocolateBars, "choco powder");
 
 function accessElementInArray(testArray, index)
 {
   return testArray[index]
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(testArray){
+  testArray.shift()
+  return testArray
 }
