@@ -19,7 +19,10 @@ function accessElementInArray(testArray, index)
   return testArray[index]
 }
 
-function 
+function addElementToEndOfArray(testArray,element)
+{
+  
+}
 
 function destructivelyRemoveElementFromBeginningOfArray(testArray){
   testArray.shift()
