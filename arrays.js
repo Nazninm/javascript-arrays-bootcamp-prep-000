@@ -9,4 +9,5 @@ function addElementToBeginningOfArray(chocolateBars ,element)
 function destructivelyAddElementToBeginningOfArray(chocolateBars ,element)
 {
   var newChocolateBar = [element , ...chocolateBars ]
+  return newChocolateBar
 }
