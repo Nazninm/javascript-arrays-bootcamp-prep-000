@@ -28,3 +28,5 @@ function removeElementFromBeginningOfArray(testArray)
    var newtestArray = testArray.slice(1)
   return newtestArray
 }
+
+function 
