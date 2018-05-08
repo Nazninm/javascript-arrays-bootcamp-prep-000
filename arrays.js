@@ -14,4 +14,4 @@ function destructivelyAddElementToBeginningOfArray(testArray ,element)
 
 addElementToBeginningOfArray(chocolateBars, "choco powder");
 
-destructivelyAddElementToBeginningOfArray();
+destructivelyAddElementToBeginningOfArray(chocolateBars, "choco powder");
