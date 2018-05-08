@@ -21,8 +21,11 @@ function accessElementInArray(testArray, index)
 
 function addElementToEndOfArray(testArray,element)
 {
-  
+  var newtestArray = [...testArray,element]
+  return newtestArray
 }
+
+function 
 
 function destructivelyRemoveElementFromBeginningOfArray(testArray){
   testArray.shift()
