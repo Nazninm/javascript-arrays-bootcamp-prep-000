@@ -16,4 +16,7 @@ addElementToBeginningOfArray(chocolateBars, "choco powder");
 
 destructivelyAddElementToBeginningOfArray(chocolateBars, "choco powder");
 
-function 
+function accessElementInArray(testArray, index)
+{
+  return testArray[index]
+}
