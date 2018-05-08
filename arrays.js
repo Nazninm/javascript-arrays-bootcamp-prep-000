@@ -4,3 +4,5 @@ function addElementToBeginningOfArray(element, chocolateBars)
 {
   chocolateBars.unshift(element)
 }
+
+function 
